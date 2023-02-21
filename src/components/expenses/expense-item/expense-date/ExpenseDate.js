@@ -1,3 +1,4 @@
+import Card from "../../../UI/card/Card";
 import "../../../expenses/expenseitem.css";
 
 export default function ExpenseDate({ date: date }) {
@@ -5,10 +6,10 @@ export default function ExpenseDate({ date: date }) {
   const year = date.getFullYear();
   const day = date.toLocaleString("en-US", { day: "2-digit" });
   return (
-    <div className="date-container">
+    <Card className="date-container">
       <h3>{month}</h3>
       <h1>{day}</h1>
       <h3>{year}</h3>
-    </div>
+    </Card>
   );
 }

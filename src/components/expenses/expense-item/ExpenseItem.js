@@ -1,14 +1,15 @@
+import Card from "../../UI/card/Card";
 import "./../expenseitem.css";
 import ExpenseDate from "./expense-date/ExpenseDate";
 function ExpenseItem({ expenses: { date, title, amount } }) {
   return (
-    <div className="expense-item">
+    <Card className="expense-item">
       <ExpenseDate date={date} />
       <div className="expense-item-description">
         <h3>{title}</h3>
-        <p className="expense-item-price">{amount}€</p>
+        <Card className="expense-item-price">{amount}€</Card>
       </div>
-    </div>
+    </Card>
   );
 }
 export default ExpenseItem;
