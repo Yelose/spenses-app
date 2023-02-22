@@ -1,6 +1,21 @@
-.expenses-container{
+h1 {
+    font-size: clamp(28px, 4vw, 32px);
+}
+h2 {
+    font-size: clamp(20px, 3vw, 24px);
+}
+h3 {
+    font-size: clamp(17px, 2vw, 19px);
+    font-weight: 300;
+}
+p {
+    font-size: clamp(13px, 1vw, 15px);
+    color: white;
+    font-weight: 400;
+}
+.main-container{
     display: flex;
     flex-direction: column;
-    gap: 2vh;
-    padding: 2vh 2vw;
+    gap: 3vh;
+    padding: 2vh 0;
 }

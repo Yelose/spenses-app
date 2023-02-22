@@ -1,0 +1,16 @@
+.inputs-container input, select {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset -1px 2px 7px 2px black;
+}
+
+.inputs-container input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+}
+
+.inputs-container select:focus, textarea:focus, input:focus{
+    outline: none;
+}

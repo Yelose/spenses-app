@@ -1,0 +1,4 @@
+:root {
+    --main-color: 215;
+    --dark-color: hsl(var(--main-color), 100%, 2%);
+}
